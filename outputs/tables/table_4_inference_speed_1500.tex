@@ -1,0 +1,14 @@
+\begin{table}[htbp]
+\caption{Inference Gecikmesi ve FPS Karşılaştırmaları (1500 Sahne)}
+\label{tab:inference_speed_1500}
+\centering
+\begin{tabular}{lcc}
+\hline
+\textbf{Model Konfigürasyonu} & \textbf{Ortalama Gecikme (ms)} & \textbf{Çıkarım Hızı (FPS)} \\ \hline
+Tekil Uzman (Sızıntılı Baseline) & 20.73 $\pm$ 1.53 & 48.23 \\
+Tekil Genelci & 21.65 $\pm$ 1.57 & 46.19 \\
+\textbf{Hibrit (Late Fusion - Önerilen)} & \textbf{39.40 $\pm$ 2.32} & \textbf{25.38} \\
+Hibrit (Separate NMS - Alternatif) & 39.63 $\pm$ 2.00 & 25.23 \\
+\hline
+\end{tabular}
+\end{table}

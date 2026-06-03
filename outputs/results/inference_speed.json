@@ -1,0 +1,26 @@
+{
+    "hybrid_late_nms": {
+        "model_name": "Hybrid (Late Fusion)",
+        "avg_latency_ms": 39.40367292612791,
+        "std_latency_ms": 2.3186282259789057,
+        "fps": 25.37834485314989
+    },
+    "specialist_only": {
+        "model_name": "Specialist Only (Baseline)",
+        "avg_latency_ms": 20.73281110574802,
+        "std_latency_ms": 1.5311986369332142,
+        "fps": 48.23272613151612
+    },
+    "generalist_only": {
+        "model_name": "Generalist Only",
+        "avg_latency_ms": 21.65058967967828,
+        "std_latency_ms": 1.5677267131319728,
+        "fps": 46.18811842056302
+    },
+    "hybrid_separate_nms": {
+        "model_name": "Hybrid (Separate NMS)",
+        "avg_latency_ms": 39.634403164188065,
+        "std_latency_ms": 1.998731439927871,
+        "fps": 25.230605740609633
+    }
+}

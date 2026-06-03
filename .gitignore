@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Model weights (too large for GitHub, >100MB each)
+# Download separately or use Git LFS
+weights/*.pth
+
+# Dataset (large, download separately)
+data/
+
+# Jupyter
+.ipynb_checkpoints/

@@ -1,0 +1,58 @@
+{
+    "specialist_only": {
+        "mAP@[0.5:0.95]": 10.92,
+        "mAP@0.50": 17.62,
+        "mAP@0.75": 11.8,
+        "AP_small": 3.57,
+        "AP_medium": 10.19,
+        "AP_large": 13.87,
+        "AR@1": 11.39,
+        "AR@10": 14.87,
+        "AR@100": 15.01,
+        "AR_small": 5.66,
+        "AR_medium": 12.54,
+        "AR_large": 18.42
+    },
+    "generalist_only": {
+        "mAP@[0.5:0.95]": 0.05,
+        "mAP@0.50": 0.1,
+        "mAP@0.75": 0.05,
+        "AP_small": 0.0,
+        "AP_medium": 0.0,
+        "AP_large": 0.09,
+        "AR@1": 0.51,
+        "AR@10": 2.57,
+        "AR@100": 3.01,
+        "AR_small": 0.0,
+        "AR_medium": 0.62,
+        "AR_large": 3.23
+    },
+    "hybrid_late_nms": {
+        "mAP@[0.5:0.95]": 8.77,
+        "mAP@0.50": 13.8,
+        "mAP@0.75": 10.15,
+        "AP_small": 3.38,
+        "AP_medium": 8.74,
+        "AP_large": 11.55,
+        "AR@1": 7.53,
+        "AR@10": 13.03,
+        "AR@100": 13.38,
+        "AR_small": 5.32,
+        "AR_medium": 10.3,
+        "AR_large": 17.02
+    },
+    "hybrid_separate_nms": {
+        "mAP@[0.5:0.95]": 8.5,
+        "mAP@0.50": 13.54,
+        "mAP@0.75": 9.62,
+        "AP_small": 3.57,
+        "AP_medium": 8.76,
+        "AP_large": 11.4,
+        "AR@1": 8.07,
+        "AR@10": 13.83,
+        "AR@100": 14.24,
+        "AR_small": 5.66,
+        "AR_medium": 10.33,
+        "AR_large": 18.15
+    }
+}

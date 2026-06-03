@@ -1,0 +1,14 @@
+\begin{table}[htbp]
+\caption{Orijinal Değerlendirme Bölümünde Model Karşılaştırma Sonuçları (1500 Sahnede Sızıntılı Baseline)}
+\label{tab:model_comparison_1500}
+\centering
+\begin{tabular}{lccccccc}
+\hline
+\textbf{Model Konfigürasyonu} & \textbf{mAP (\%)} & \textbf{mAP50 (\%)} & \textbf{AR@100 (\%)} & \textbf{Precision (\%)} & \textbf{Recall (\%)} & \textbf{F1-Skor (\%)} & \textbf{FPR (\%)} \\ \hline
+Tekil Uzman (Sızıntılı Baseline) & 51.5 & 64.5 & 55.4 & 0.9 & 1.0 & 1.0 & 0.1 \\
+Tekil Genelci & 0.0 & 0.1 & 2.5 & 0.0 & 0.0 & 0.0 & 1.0 \\
+\textbf{Hibrit (Late Fusion - Önerilen)} & \textbf{36.7} & \textbf{43.7} & \textbf{41.9} & \textbf{0.2} & \textbf{1.0} & \textbf{0.4} & \textbf{0.8} \\
+Hibrit (Separate NMS - Alternatif) & 37.7 & 44.9 & 43.5 & 0.2 & 1.0 & 0.4 & 0.8 \\
+\hline
+\end{tabular}
+\end{table}
