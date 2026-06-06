@@ -44,7 +44,7 @@ Object detection models in autonomous driving are typically trained on **common 
 
 ```
                     ┌─────────────────────┐
-                    │    Input Image       │
+                    │    Input Image      │
                     └─────────┬───────────┘
                               │
                     ┌─────────┴───────────┐
