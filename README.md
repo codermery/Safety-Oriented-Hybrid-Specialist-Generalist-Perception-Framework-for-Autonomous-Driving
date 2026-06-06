@@ -447,4 +447,4 @@ The model was trained from scratch and the original paper results were verified 
 
 ## 📜 License
 
-This project is intended for academic research purposes. Please contact the authors for details.
+This project is licensed under the [MIT License](LICENSE). It is intended for academic research purposes.
