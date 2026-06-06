@@ -50,9 +50,9 @@ Object detection models in autonomous driving are typically trained on **common 
                     ┌─────────┴───────────┐
                     │                     │
             ┌───────▼───────┐     ┌───────▼───────┐
-            │  Expert Model  │     │Generalist Model│
-            │  (CODA-tuned)  │     │ (COCO-trained) │
-            │ 35 CODA classes│     │ 91 COCO classes│
+            │  Expert Model  │    │Generalist Model│
+            │  (CODA-tuned)  │    │ (COCO-trained) │
+            │ 35 CODA classes│    │ 91 COCO classes│
             └───────┬───────┘     └───────┬───────┘
                     │                     │
                     │  Class mapping +    │
@@ -60,12 +60,12 @@ Object detection models in autonomous driving are typically trained on **common 
                     └─────────┬───────────┘
                               │
                     ┌─────────▼───────────┐
-                    │   Late Fusion NMS    │
-                    │  (IoU=0.5, unified)  │
+                    │   Late Fusion NMS   │
+                    │  (IoU=0.5, unified) │
                     └─────────┬───────────┘
                               │
                     ┌─────────▼───────────┐
-                    │  Final Detections    │
+                    │  Final Detections   │
                     └─────────────────────┘
 ```
 
